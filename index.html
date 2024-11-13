@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Minhas Aventuras</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Minhas Aventuras</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre mim</a></li>
+                    <li><a href="#aventuras">Aventuras</a></li>
+                    <li><a href="#contato">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="sobre" class="sobre">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <p>Bem-vindo(a) ao meu espaço! Espero que minhas histórias te motivem a explorar, sonhar e talvez, quem sabe, também partir em sua própria jornada de descobertas.</p>
+                <p>Sou uma exploradora incansável, apaixonada por culturas vibrantes, paisagens de tirar o fôlego e histórias que deixam marcas. Cada destino é uma nova chance de me perder e me encontrar em meio a aventuras inesquecíveis.</p>
+                <p>Com a mochila cheia de sonhos e a mente aberta, transformo cada viagem em uma descoberta de mim mesma e do mundo ao meu redor. Se você ama o inesperado, as pessoas fascinantes e as experiências únicas, venha comigo nessa jornada sem fim!</p>
+            </div>
+        </section>        
+        <section id="aventuras" class="aventuras">
+            <div class="container">
+                <h2>Minhas Aventuras</h2>
+                <div class="aventuras-grid">
+                    <div class="aventura-item">
+                        <figure>
+                            <img src="./assets/canoa.jpg" alt="Canoa, rio e casa">
+                            <figcaption>Amazônia</figcaption>
+                            <p>Explore cidades indíginas, desconhecidas e emocionantes. Viva a vida em um ambiente seguro, com cuidado e respeito aos animais.</p>
+                        </figure>
+                    </div>
+                    <div class="aventura-item">
+                        <figure>
+                            <img src="./assets/deserto.jpg" alt="Sol, areia e deserto">
+                            <figcaption>Deserto Saara</figcaption>
+                            <p>Aprenda sobre a cultura do deserto, conheça os melhores lugares para caminhar e as ferramentas necessárias.</p>
+                        </figure>
+                    </div>
+                    <div class="aventura-item">
+                        <figure>
+                            <img src="./assets/pinguins.jpg" alt="Felo, montanha e pinguins">
+                            <figcaption>Antártica</figcaption>
+                            <p>Conheça a história do pinguim e aprenda sobre o seu importância na agricultura, comida e saúde.Viva a vida em um ambiente seguro, com cuidado e respeito aos animais.</p>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="contato">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Por favor, deixe uma mensagem preenchendo os dados a seguir!</p>
+                <form action="https://formsubmit.co/agleicesousa98@gmail.com" method="POST">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome..." required>
+                    
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Seu e-mail..." required>
+                    
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Deixe sua mensagem..." required></textarea>
+                    
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 FSN4 Capacita Brasil. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
